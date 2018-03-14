@@ -1,0 +1,79 @@
+1. 布尔数据类型的俩个值是什么？如何拼写
+True False
+
+2. 三个布尔操作符是什么？
+and or not
+
+3. 写出每个布尔操作符的真值表
+ True and True True
+ True and False  False
+ False and True False
+ False and False False
+
+ True or True True
+ True or False  True
+ False or True True
+ False or False False
+
+ not True False
+ not False True
+
+4. 以下表达式求值的结果是什么？
+(5 > 4) and (3 == 5) False
+not (5 > 4) False
+(5 > 4) or (3 == 5) True
+not((5 > 4) or (3 == 5)) False
+(True and True) and (True == False) False
+(not False) or (not True) True
+
+5. 6个比较操作符是什么？
+> , < , ==, >=, <=, != 
+
+6. 等于操作符和赋值操作符的区别是什么？
+一个是有俩个等号，一个是只有一个
+
+7. 解释什么是条件，可以在哪里使用条件？
+提交是一个表达式的真值结果，可以在if ，while， for等控制流中使用
+
+8. 识别这段代码的3个语句块：
+spam
+
+9. 
+spam = input()
+if str(spam) == '1':
+    print('Hello')
+elif str(spam) == '2':
+    print('Howdy')
+else
+    print('Greetings')
+
+10. ctrl + c
+11. break 跳出整个循环，continue跳出本次循环
+12. rang(10)，循环从0-9，rang(0,10) 循环从下标0开始，直到9，包含9，range(0,10,1)循环从下标0开始，到末尾9，步长为1
+13. for x in range(1,11)
+        print(x)
+
+    x = 1
+    while x < 11
+        print x
+        x += 1
+14 spam.bacon()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
