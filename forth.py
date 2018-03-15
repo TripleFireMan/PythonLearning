@@ -27,3 +27,54 @@ print spam
 del(spam[0])
 del spam[0]
 print spam
+
+# 判断一个值是否在列表中
+if 'pig' in spam:
+	print 'boy in spam'
+else:
+	print 'boy not in spam'
+
+# 多重赋值
+c1,c2,c3,c4,c5,c6,c7,c8,c9,c10 = spam
+print(c1+c2+c3+str(c4)+c5)
+
+# index方法查找值,如果值在列表中就会返回该值，如果值不在列表中，会报错。且如果值在列表中，会返回第一次出现时的下标
+searchSpam = spam.index(1)
+print searchSpam
+
+# append增加值
+spam.append('blue')
+print spam
+
+# insert插入值
+spam.insert(1,'chicken')
+print spam
+
+# remove 移除值
+spam.remove('pig')
+print spam
+
+# sort 排序
+spam.sort()
+print spam
+
+spam.sort(reverse=True)
+print spam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

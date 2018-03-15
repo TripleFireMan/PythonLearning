@@ -28,3 +28,21 @@ while True:
 print('猫们:')
 for x in xrange(0,len(cats)):
 	print cats[x]
+
+print('请输入你要查找的猫的名字:')
+searchedCatName = raw_input()
+if searchedCatName in cats:
+	print('你要找的猫在')
+else:
+	print('你要找的猫不在')
+
+mimi,moxi,luxifa = cats
+
+
+print('mimi:'+ mimi)
+print('moxi:'+ moxi)
+print('luxifa:'+ luxifa)
+
+
+
+
