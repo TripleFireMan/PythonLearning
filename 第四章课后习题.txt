@@ -1,0 +1,20 @@
+第四章课后习题.txt
+
+1. 空列表
+2. spam[2] = 'hello'
+3. spam[33 / 11]
+   spam[3] = 'd'  
+4. spam[-1] = 'd'
+5. spam[:2] = ['a','b']
+6. 1
+7. [3.14,'cat',11,'cat',True,99]
+8. [3.14,11,'cat',True]
+9. + *
+10. append拼接在列表最后，insert可以指定插入位置
+11. list.remove('值') 与 del(list[0])函数删除某个下标
+12. 都可以调用append、remove、insert等方法，都可以通过下标去取值
+13. 列表可变、元组不可变
+14. spam = (42,)
+15. tuple() 与 list()函数转换
+16. 包含的是列表的引用
+17. copy()浅层拷贝，只拷贝了引用，deepcopy深层拷贝，拷贝内容

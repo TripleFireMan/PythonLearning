@@ -57,9 +57,45 @@ print spam
 # sort 排序
 spam.sort()
 print spam
-
+# sort 逆序
 spam.sort(reverse=True)
 print spam
+
+# 字符串
+strname = 'blue'
+for x in strname:
+	print x
+print strname[-2]
+print strname[0:2]
+print strname[2:]
+
+# 元组[不可变] 和 列表[可变]
+tuble = ('name','age',10, 10.99)
+
+print tuble
+
+type = type(('name',))
+print type
+print type('2222')
+
+# list和tuple函数转换类型
+obj1 = [1,2,3]
+obj2 = (4,5,6)
+
+print obj1
+print obj2
+
+obj3 = tuple(obj1)
+obj4 = list(obj2)
+
+print obj3
+print obj4
+
+print obj1
+print obj2
+
+
+#copy 与 deepCopy,copy只拷贝一层，deepcopy会拷贝多层
 
 
 
